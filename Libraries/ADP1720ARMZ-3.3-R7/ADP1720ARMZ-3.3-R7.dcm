@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP1720ARMZ-3.3-R7
+D 50 mA, High Voltage, Micropower Linear Regulator
+K
+F http://componentsearchengine.com/Datasheets/1/ADP1720ARMZ-3.3-R7.pdf
+$ENDCMP
+#
+#End Doc Library

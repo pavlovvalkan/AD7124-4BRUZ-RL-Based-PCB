@@ -1,0 +1,193 @@
+(footprint "C1206"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C1206")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 -3.175 0)
+		(layer "F.SilkS")
+		(uuid "7bb90e36-599d-4d6c-92bc-7d41146180fb")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C1206"
+		(at 0 -2.286 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "987ff64b-0682-4dbc-97aa-9068ac25695f")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed6be7a4-7472-4cd3-8219-d106eb6cdf98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbcbf820-c156-472e-9379-e24661cce679")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "50V 1uF X7R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c34cda88-dc14-4e12-a655-d51e5ff145b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.35 0)
+		(end -2.35 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "279dcbc9-2ba0-4509-b20f-f9fe37e904dc")
+	)
+	(fp_line
+		(start -2.875 -1.8)
+		(end 2.875 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba77d3b7-ad3f-422e-9fe8-a7084c3e67d4")
+	)
+	(fp_line
+		(start -2.875 1.8)
+		(end -2.875 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79fae873-68c0-48fb-8c80-26c9204e6af5")
+	)
+	(fp_line
+		(start 2.875 -1.8)
+		(end 2.875 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "467c0ddc-54a7-4665-bf10-77f03d2e455c")
+	)
+	(fp_line
+		(start 2.875 1.8)
+		(end -2.875 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3840f200-c9fa-4bd6-8b71-c770da058021")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ed5aa41-58a1-4f70-bb9b-f0e5570d85aa")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce8a8fe1-837f-4079-a296-2bfe7bd17966")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "288c6da4-5c79-48b2-b66d-6ed394ab144e")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54f7ae60-870b-4d44-8c2c-76cd9e7364c1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0254 2.3114 0)
+		(layer "F.Fab")
+		(uuid "13d9391d-0ed3-415f-a5e4-cec8e05dcd1d")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.15 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "36688f1d-3475-4323-93bc-c8d04ee844b2")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.15 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8259de3e-9439-443a-8ebb-c230d89d5717")
+	)
+	(model "C1206F105M5RACAUTO7210.stp"
+		(offset
+			(xyz -1.700000022 -0.8999999626 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

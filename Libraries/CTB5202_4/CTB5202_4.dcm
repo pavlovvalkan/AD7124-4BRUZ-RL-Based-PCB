@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CTB5202_4
+D Standard Terminal Block, Wire to Board, CTB5202, 4 Contacts, 5 mm, Terminal Block, PCB, PCB Mount
+K
+F https://www.camdenboss.com/products/datasheet/CTB5202%20series_D.pdf
+$ENDCMP
+#
+#End Doc Library

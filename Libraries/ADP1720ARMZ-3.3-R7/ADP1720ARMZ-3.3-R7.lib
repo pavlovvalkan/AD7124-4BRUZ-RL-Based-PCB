@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ADP1720ARMZ-3.3-R7
+#/342016/1435839/2.50/8/0/Integrated Circuit
+DEF ADP1720ARMZ-3.3-R7 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "ADP1720ARMZ-3.3-R7" 1050 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 1050 100 50 H I L CNN
+F3 "http://componentsearchengine.com/Datasheets/1/ADP1720ARMZ-3.3-R7.pdf" 1050 0 50 H I L CNN
+F4 "50 mA, High Voltage, Micropower Linear Regulator" 1050 -100 50 H I L CNN "Description"
+F5 "" 1050 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADP1720ARMZ-3.3-R7" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-ADP1720ARMZ3.3R7" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP1720ARMZ-3.3-R7?qs=WIvQP4zGanhgnOTXpgB%2F8w%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ADP1720ARMZ-3.3-R7" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/adp1720armz-3.3-r7/analog-devices" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND_2 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 -100 200 R 50 50 0 0 P
+X OUT 3 0 -200 200 R 50 50 0 0 P
+X EN 4 0 -300 200 R 50 50 0 0 P
+X GND_3 5 1200 -300 200 L 50 50 0 0 P
+X GND_4 6 1200 -200 200 L 50 50 0 0 P
+X GND_5 7 1200 -100 200 L 50 50 0 0 P
+X GND 8 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
